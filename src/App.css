@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.slots_results{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 2em;
+  align-items: center;
+}
+
+.slots_marcos{
+
+  font-size: x-large;
+  padding: 5em;
+  background-color: white;
+  margin:1em;
+  border: 5px solid black;
+  border-radius: 25px;
+
+}
+
+.palanca_off{
+
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+.palanca_on{
+
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
