@@ -44,3 +44,30 @@
   transform: scaleX(1);
 }
 
+.slot_transition_off{
+  display: none;
+  background: linear-gradient("");
+  height: 250px;
+  width: 250px;
+}
+
+.slot_transition_on{
+  background-size:cover;
+  background-repeat: no-repeat;
+  background: url(./resources/slot_transition.svg);
+  background-color: white;
+  display: block;
+  color: transparent;
+  
+
+}
+
+.btn_fichas{
+
+  border: solid white 2px;
+  border-radius: 25px;
+  padding: 0.2em;
+  font-size: 50px;
+
+
+}
