@@ -1,4 +1,5 @@
-SLOTS
+<h1>SLOTS</h1>
+
 A practise slots machine made in React (create-react-app) for learning purpose.
 
 ## Available Scripts
